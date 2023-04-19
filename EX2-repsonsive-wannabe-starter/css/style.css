@@ -158,8 +158,21 @@ img {
 
 
     .steps .col {
-        width: 80%;
+        width: 75%;
         margin-bottom: 4rem;
+    }
+
+    .why-us .col-left {
+        width: 75%;
+    }
+    
+    .why-us .col-right {
+        width: 75%;
+    }
+
+    h2.text-center{
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
     
  }
