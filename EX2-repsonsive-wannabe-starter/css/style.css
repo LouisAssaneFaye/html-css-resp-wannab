@@ -135,3 +135,31 @@ img {
         padding: 0 20px;
     }
  }
+
+ @media screen and (max-width:480px){
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        width: 480px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .lessons .col {
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+
+    .col {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+
+
+    .steps .col {
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+    
+ }
